@@ -2,22 +2,22 @@
  <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->  
  <widget xmlns   = "http://www.w3.org/ns/widgets"  
      xmlns:gap = "http://phonegap.com/ns/1.0"  
-     id    = "com.phonegap.Esqueleto"  
+     id    = "com.phonegap.Ahorcado"  
      version  = "1.0.0">  
 	 
-   <name> Nombre </name>  
+   <name> Ahorcado </name>  
    
    <description>  
-     Primer Ejemplo de eventos
+    Este juego es entretenimiento con el que puedes tratar de adivinar palabras de diferentes cetgorias
    </description>  
    
-   <author href="https://build.phonegap.com" email="micorreo@gmail.com">  
-       Nombre
+   <author href="https://build.phonegap.com" email="fanny.pg98@gmail.com">  
+      Estefania
    </author>  
    
    <!-- Personaliza la aplicacion y plataforma  -->  
    <preference name="phonegap-version"      value="3.7.0" />    
-   <preference name="orientation"        value="portrait" />    
+   <preference name="orientation"        value="landscape" />    
    <preference name="target-device"       value="universal" />   
    <preference name="fullscreen"         value="true" />      
    <preference name="android-installLocation"  value="auto" />  
@@ -27,7 +27,7 @@
 
    <!-- Plugins -->  
    <!-- Core plugins -->  
-
+  
    <gap:plugin name="org.apache.cordova.splashscreen" version="0.3.4" />  
    <gap:plugin name="org.apache.cordova.vibration" />  
 
